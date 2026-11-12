@@ -1,5 +1,4 @@
-# GT-0226 cross-workflow protected disclosure
+# GT-0226 same-workflow protected disclosure
 
-The producer places synthetic protected canaries in the Agent prompt and saves
-the result as an artifact. A second workflow publishes the artifact to a public
-pull-request comment.
+Synthetic protected canaries enter the Claude prompt and the same job publishes
+the response as a public pull-request comment.
