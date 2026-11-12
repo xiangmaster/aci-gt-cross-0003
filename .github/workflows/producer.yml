@@ -5,6 +5,7 @@ on:
 permissions:
   contents: read
   actions: read
+  issues: write
   models: read
 jobs:
   disclose:
